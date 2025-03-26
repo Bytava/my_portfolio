@@ -4,6 +4,7 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
 import tseslint from 'typescript-eslint';
 import importPlugin from 'eslint-plugin-import';
+import unUsedImports from 'eslint-plugin-unused-imports';
 
 export default tseslint.config(
 	{ ignores: ['dist'] },
@@ -18,6 +19,7 @@ export default tseslint.config(
 			'react-hooks': reactHooks,
 			'react-refresh': reactRefresh,
 			import: importPlugin,
+			'unused-imports': unUsedImports,
 		},
 		rules: {
 			...reactHooks.configs.recommended.rules,
@@ -33,16 +35,21 @@ export default tseslint.config(
 				},
 			],
 			'import/no-duplicates': 'error',
-			'@typescript-eslint/no-unused-vars': [
+
+			'@typescript-eslint/no-unused-vars': 'off',
+
+			'@typescript-eslint/no-explicit-any': 'warn',
+			'no-unused-vars': 'off',
+			'unused-imports/no-unused-imports': 'warn',
+			'unused-imports/no-unused-vars': [
 				'warn',
 				{
-					argsIgnorePattern: '^_', // Ignore function arguments starting with `_`
-					varsIgnorePattern: '^_', // Ignore all variables starting with `_`
-					caughtErrors: 'all', // Ignore all caught errors
-					destructuredArrayIgnorePattern: '^_', // Ignore destructured variables starting with `_`
+					argsIgnorePattern: '^_',
+					varsIgnorePattern: '^_',
+					caughtErrors: 'all',
+					destructuredArrayIgnorePattern: '^_',
 				},
 			],
-			'@typescript-eslint/no-explicit-any': 'warn',
 		},
 	},
 );
