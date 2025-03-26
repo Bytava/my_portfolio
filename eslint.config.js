@@ -5,6 +5,7 @@ import reactRefresh from 'eslint-plugin-react-refresh';
 import tseslint from 'typescript-eslint';
 import importPlugin from 'eslint-plugin-import';
 import unUsedImports from 'eslint-plugin-unused-imports';
+import reactPlugin from 'eslint-plugin-react';
 
 export default tseslint.config(
 	{ ignores: ['dist'] },
@@ -20,6 +21,7 @@ export default tseslint.config(
 			'react-refresh': reactRefresh,
 			import: importPlugin,
 			'unused-imports': unUsedImports,
+			react: reactPlugin,
 		},
 		rules: {
 			...reactHooks.configs.recommended.rules,
@@ -50,6 +52,7 @@ export default tseslint.config(
 					destructuredArrayIgnorePattern: '^_',
 				},
 			],
+			'react/jsx-no-useless-fragment': ['warn', { allowExpressions: true }],
 		},
 	},
 );
