@@ -1,5 +1,10 @@
 {
-	"words": ["Avenir", "vite"],
+	"words": [
+		"Avenir",
+		"Sooperwizer",
+		"vite",
+		"Wimetrix"
+	],
 	"ignorePaths": [
 		"package-lock.json",
 		"pnpm-lock.yaml",

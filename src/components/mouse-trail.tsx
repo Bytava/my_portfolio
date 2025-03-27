@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 
+//  Make them scatter on hero section and them combine then on mouse move
 export const MouseTrail = () => {
 	useEffect(() => {
 		const coords = { x: 0, y: 0 };

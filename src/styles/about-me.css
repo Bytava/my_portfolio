@@ -1,0 +1,56 @@
+.about-me {
+	min-height: 100vh;
+	display: flex;
+	/* justify-content: center;
+	align-items: center; */
+}
+
+.about-me > div {
+	width: 50%;
+	padding: 1rem;
+}
+
+.about-me p {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	line-height: 1.5rem;
+}
+
+.timeline {
+	padding-left: 3rem;
+	/* border-left: 1px solid var(--primaryFg); */
+	position: relative;
+}
+
+.timeline::after {
+	position: absolute;
+	content: '';
+	top: 40px;
+	left: 30px;
+	width: 2px;
+	height: calc(100% - 40px);
+	background-color: var(--accentHi);
+}
+
+.timeline > ul {
+	list-style-type: none;
+}
+
+.timeline-item {
+	position: relative;
+}
+
+.timeline-description {
+	padding-left: 2rem;
+}
+
+.timeline-item::before {
+	position: absolute;
+	content: '';
+	top: 5px;
+	left: -24px;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: var(--primaryFg);
+}

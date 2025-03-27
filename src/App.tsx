@@ -1,6 +1,8 @@
 import { MouseTrail } from './components/mouse-trail';
 import { ScrollBar } from './components/scroll-bar';
+import { AboutMe } from './sections/about-me.section';
 import { InfoSection } from './sections/info.section';
+import './styles/about-me.css';
 import './styles/floating-button.css';
 import './styles/glow-box.css';
 import './styles/info-section.css';
@@ -13,6 +15,7 @@ function App() {
 			<ScrollBar />
 			<MouseTrail />
 			<InfoSection />
+			<AboutMe />
 		</>
 	);
 }
