@@ -4,7 +4,7 @@ type TFloatingBtn = {
 	onClick?: () => void;
 	href?: string;
 };
-const FloatingButton = ({ label, className, href }: TFloatingBtn) => {
+export const FloatingButton = ({ label, className, href }: TFloatingBtn) => {
 	return (
 		<a
 			href={href}
@@ -15,5 +15,3 @@ const FloatingButton = ({ label, className, href }: TFloatingBtn) => {
 		</a>
 	);
 };
-
-export default FloatingButton;
