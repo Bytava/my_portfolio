@@ -6,6 +6,7 @@
 	--background: hsl(0, 0%, 0%);
 	--background-reverse: hsl(0, 0%, 100%);
 	--scroll-bar: 31, 195, 255;
+	--primary: 31, 195, 255;
 	--primaryBg: hsla(155, 100%, 65%, 1%);
 	--primaryHi: hsla(155, 100%, 75%, 25%);
 	--primaryFg: hsl(155, 100%, 85%);

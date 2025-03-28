@@ -1,3 +1,5 @@
+import { Title } from '../components/title.component';
+
 const timeline = [
 	{
 		title: 'Experience',
@@ -9,23 +11,50 @@ const timeline = [
 				description: (
 					<ul>
 						<li>
-							<p>
-								Contributed significantly to the development of main project{' '}
-								<strong>Sooperwizer</strong>, a pivotal project for automating
-								and optimizing textile processes.
-							</p>
-							<li>
-								<p>
-									Designed and developed multiple interactive data visualization
-									dashboards.
-								</p>
-							</li>
-							<li>
-								<p>Built several Android applications using React Native.</p>
-							</li>
+							Contributed significantly to the development of main project{' '}
+							<strong>Sooperwizer</strong>, a pivotal project for automating and
+							optimizing textile processes.
+						</li>
+						<li>
+							Designed and developed multiple interactive data visualization
+							dashboards.
+						</li>
+						<li>Built several Android applications using React Native.</li>
+					</ul>
+				),
+			},
+		],
+	},
+	{
+		title: 'Certification',
+		items: [
+			{
+				title: 'Full Stack Developer',
+				place: 'House of Professionals (HOP)',
+				timePeriod: '2021 - 2022',
+				description: (
+					<ul>
+						<li>
+							Earned a Full Stack Development certification from the House of
+							Professional Developers.
+						</li>
+						<li>
+							Awarded for securing the top position in class, demonstrating
+							strong skills and commitment.
 						</li>
 					</ul>
 				),
+			},
+		],
+	},
+	{
+		title: 'Education',
+		items: [
+			{
+				title: 'Bachelor of Science in Computer Science (BSCS)',
+				place: 'Virtual University of Pakistan',
+				timePeriod: '2022 - Present',
+				description: '',
 			},
 		],
 	},
@@ -33,17 +62,20 @@ const timeline = [
 
 export const AboutMe = () => {
 	return (
-		<section className='about-me'>
+		<section
+			className='about-me'
+			id='about-me'
+		>
 			<div>
-				<h1>About Me</h1>
+				<Title />
 			</div>
 			<div>
-				<div>
+				<div className='intro'>
 					<p style={{ marginTop: '20px' }}>
-						Hey, I'm Abdullah Iqbal, a Full Stack Developer.
+						👋 Hey, I'm Abdullah Iqbal, a Full Stack Developer.
 					</p>
 					<p>
-						I've been working with <strong>React</strong> and
+						I've been working with <strong>React</strong> and{' '}
 						<strong>Node</strong> for the past <strong>three years</strong>,
 						building web applications that are fast, scalable and user-friendly.
 					</p>
@@ -61,18 +93,18 @@ export const AboutMe = () => {
 						>
 							<h1>{title}</h1>
 							{items.map(({ title, place, timePeriod, description }, idx) => (
-								<ul
+								<div
 									className='timeline-list'
 									key={idx}
 								>
-									<li className='timeline-item'>
-										<p>{title}</p>
-										<p>
+									<div className='timeline-item'>
+										<p className='designation'>{title}</p>
+										<p className='place'>
 											{place} | {timePeriod}
 										</p>
 										<div className='timeline-description'>{description}</div>
-									</li>
-								</ul>
+									</div>
+								</div>
 							))}
 						</div>
 					))}
