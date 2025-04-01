@@ -1,4 +1,4 @@
-export const Title = () => {
+export const SectionTitle = () => {
 	return (
 		<div className='title'>
 			<p className='primary-text'>About</p>

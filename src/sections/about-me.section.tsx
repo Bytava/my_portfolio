@@ -1,4 +1,4 @@
-import { Title } from '../components/title.component';
+import { SectionTitle } from '../components/section-title.component';
 
 const timeline = [
 	{
@@ -67,7 +67,7 @@ export const AboutMe = () => {
 			id='about-me'
 		>
 			<div>
-				<Title />
+				<SectionTitle />
 			</div>
 			<div>
 				<div className='intro'>
