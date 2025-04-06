@@ -63,11 +63,14 @@ const timeline = [
 export const AboutMe = () => {
 	return (
 		<section
-			className='about-me'
+			className='about-me container'
 			id='about-me'
 		>
 			<div>
-				<SectionTitle />
+				<SectionTitle
+					title='About'
+					subTitle='ME'
+				/>
 			</div>
 			<div>
 				<div className='intro'>

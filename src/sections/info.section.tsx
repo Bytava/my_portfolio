@@ -22,7 +22,7 @@ export const InfoSection = () => {
 			<FloatingButton
 				label='Tech'
 				className='sec'
-				href='/#tech'
+				href='/#tech-stack'
 			/>
 
 			<div className='blur'></div>
