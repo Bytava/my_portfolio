@@ -6,6 +6,7 @@ import {
 	SiFastify,
 	SiMui,
 	SiMysql,
+	SiShadcnui,
 	SiTailwindcss,
 } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
@@ -15,7 +16,7 @@ import { SectionTitle } from '../components/section-title.component';
 
 const techs = [
 	{
-		heading: 'Recently I am working with',
+		heading: 'Core Stack I Work With',
 		items: [
 			{
 				title: 'Next JS',
@@ -23,7 +24,7 @@ const techs = [
 				color: 'rgba(255, 255, 255, 0.4)',
 			},
 			{
-				title: 'React Js',
+				title: 'React JS',
 				icon: <FaReact color='rgb(97, 219, 251)' />,
 				color: 'rgb(97, 219, 251, 0.6)',
 			},
@@ -33,7 +34,7 @@ const techs = [
 				color: 'rgb(104, 160, 99)',
 			},
 			{
-				title: 'Typescript',
+				title: 'TypeScript',
 				icon: <BiLogoTypescript color='rgb(0, 122, 204)' />,
 				color: 'rgba(0, 122, 204, 0.6)',
 			},
@@ -47,15 +48,10 @@ const techs = [
 				icon: <SiExpress color='rgba(255, 255, 255)' />,
 				color: 'rgba(255, 255, 255, 0.4)',
 			},
-			{
-				title: 'MsSql',
-				icon: <DiMsqlServer color='rgb(230, 50, 42)' />,
-				color: 'rgb(241, 83, 75, 0.5)',
-			},
 		],
 	},
 	{
-		heading: 'Tech that I mostly use for UI',
+		heading: 'UI & Styling',
 		items: [
 			{
 				title: 'Material UI',
@@ -63,32 +59,38 @@ const techs = [
 				color: 'rgb(0, 127, 255, 0.6)',
 			},
 			{
+				title: 'ShadCn UI',
+				icon: <SiShadcnui color='rgb(255, 255, 255)' />,
+				color: 'rgba(255, 255, 255, 0.4)',
+			},
+			{
 				title: 'Tailwind CSS',
 				icon: <SiTailwindcss color='rgb(6, 182, 212)' />,
 				color: 'rgb(6, 182, 212, 0.7)',
 			},
-			// {
-			// 	title: 'ShadCn UI',
-			// 	icon: <ShadCN color='rgb(255, 255, 255)' />,
-			// 	color: 'rgba(255, 255, 255, 0.4)',
-			// },
-		],
-	},
-	{
-		heading: 'Technology from my past usage',
-		items: [
 			{
 				title: 'Bootstrap',
 				icon: <FaBootstrap color='rgb(125, 17, 248)' />,
 				color: 'rgb(125, 17, 248, 0.75)',
 			},
+			// Optionally add ShadCn here
+		],
+	},
+	{
+		heading: 'Databases I Use',
+		items: [
 			{
-				title: 'Mongo DB',
+				title: 'MsSQL',
+				icon: <DiMsqlServer color='rgb(230, 50, 42)' />,
+				color: 'rgb(241, 83, 75, 0.5)',
+			},
+			{
+				title: 'MongoDB',
 				icon: <DiMongodb color='rgb(0, 237, 100)' />,
 				color: 'rgb(0, 237, 100, 0.7)',
 			},
 			{
-				title: 'MySql',
+				title: 'MySQL',
 				icon: <SiMysql color='rgb(0, 122, 158)' />,
 				color: 'rgb(0, 122, 158, 0.75)',
 			},
