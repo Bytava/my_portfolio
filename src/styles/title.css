@@ -1,3 +1,8 @@
+:root {
+	--text-primary: 8rem;
+	--text-secondary: 11rem;
+}
+
 .title {
 	text-align: center;
 	margin: auto;
@@ -9,7 +14,7 @@
 
 .title .primary-text {
 	color: white;
-	font-size: 8rem;
+	font-size: var(--text-primary);
 	margin-bottom: 3rem;
 	letter-spacing: 0.1rem;
 	text-transform: uppercase;
@@ -17,7 +22,7 @@
 }
 
 .title .secondary-text {
-	font-size: 11rem;
+	font-size: var(--text-secondary);
 	text-align: end;
 	letter-spacing: 0.1rem;
 	text-transform: uppercase;
@@ -25,4 +30,14 @@
 	-webkit-text-fill-color: transparent;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: hsl(196, 100%, 56%);
+}
+
+@media screen and (max-width: 700px) {
+	:root {
+		--text-primary: 5rem;
+		--text-secondary: 6rem;
+	}
+	.title {
+		top: 10rem;
+	}
 }

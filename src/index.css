@@ -116,22 +116,13 @@ hr:before {
 }
 
 @media screen and (max-width: 700px) {
-	.heading {
-		font-size: 1.5rem;
-		margin-bottom: 0.6rem;
-	}
 	.scroll-bar {
 		display: none;
 	}
 }
 
 @media screen and (max-width: 450px) {
-	.heading {
-		font-size: 1rem;
-		margin-bottom: 0.3rem;
-	}
-
 	p {
-		font-size: 0.8rem;
+		font-size: 1.5rem;
 	}
 }

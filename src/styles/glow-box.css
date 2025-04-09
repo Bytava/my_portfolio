@@ -104,7 +104,7 @@
 
 @media screen and (max-width: 700px) {
 	.glow-box {
-		scale: 0.8;
+		scale: 0.9;
 	}
 
 	.glow-box-title {
@@ -114,11 +114,5 @@
 
 	.glow-box-parent:hover .glow-box-title {
 		top: -25%;
-	}
-}
-
-@media screen and (max-width: 450px) {
-	.glow-box {
-		scale: 0.7;
 	}
 }

@@ -21,7 +21,7 @@
 
 .tech-row {
 	display: flex;
-	gap: 15px;
+	gap: 1rem;
 	margin: 20px 0px;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -29,10 +29,37 @@
 
 .tech-grid {
 	display: flex;
-	gap: 20px;
+	gap: 1rem;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
 	align-items: center;
 	font-family: 'Fugaz One', sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+	.tech-stack {
+		padding: 1rem 2rem;
+		flex-direction: column-reverse;
+		gap: 1rem;
+	}
+
+	.tech-stack > div {
+		width: 100%;
+		padding: 0.5rem;
+	}
+
+	.tech-stack .title {
+		margin-top: 2rem;
+		text-align: center;
+	}
+
+	.tech-stack p {
+		font-size: 1.1rem;
+		line-height: 1.5rem;
+	}
+
+	.tech-row {
+		gap: 0.5rem;
+	}
 }

@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 700px) {
 	.hero-section {
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 	.hero-section .name {
 		font-size: 4rem;
@@ -47,11 +47,7 @@
 	}
 }
 
-@media screen and (max-width: 450px) {
-	.hero-section {
-		font-size: 1rem;
-	}
-
+@media screen and (max-width: 300px) {
 	.hero-section .name {
 		font-size: 3rem;
 	}
