@@ -1,8 +1,5 @@
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { IoMailOutline } from 'react-icons/io5';
 
 import { FloatingButton } from '../components/floating-button';
-import { GlowLink } from '../components/glow-box-link';
 import { TextHover } from '../components/text-hover.component';
 
 export const InfoSection = () => {
@@ -15,7 +12,7 @@ export const InfoSection = () => {
 			/>
 			<p>Hi, I am</p>
 			<TextHover
-				text='ABDULLAH'
+				text='Arnold'
 				className='name'
 			/>
 			<p>Full Stack Developer</p>
@@ -26,7 +23,7 @@ export const InfoSection = () => {
 			/>
 
 			<div className='blur'></div>
-			<div className='bottom-bar'>
+			{/* <div className='bottom-bar'>
 				<GlowLink
 					href='https://github.com/Abdullahiqbal2021'
 					color='rgba(255, 255, 255, 0.4)'
@@ -45,7 +42,7 @@ export const InfoSection = () => {
 					color=' rgb(18, 122, 209,0.7)'
 					aria-label='mail'
 				/>
-			</div>
+			</div> */}
 		</div>
 	);
 };

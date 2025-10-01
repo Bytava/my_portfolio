@@ -6,41 +6,41 @@ const timeline = [
 		items: [
 			{
 				title: 'Full Stack Developer',
-				place: '@Wimetrix',
-				timePeriod: '2022 - Present',
+				place: 'Nimbus TechWorks',
+				timePeriod: '2018.3 - 2020.3',
 				description: (
 					<ul>
 						<li>
-							Contributed significantly to the development of main project{' '}
-							<strong>Sooperwizer</strong>, a pivotal project for automating and
-							optimizing textile processes.
+							Crafted interactive web applications using Next.js, React.js, and GraphQL
 						</li>
 						<li>
-							Designed and developed multiple interactive data visualization
-							dashboards.
+							Implemented modular and reusable components to improve development speed by 30%.
 						</li>
-						<li>Built several Android applications using React Native.</li>
+						<li>Coordinated with international teams to deliver multilingual web solutions for European clients.</li>
+						<li>Contributed to performance audits, ensuring web apps met accessibility and SEO standards.</li>
+						<li>
+							Developed internal dashboards enabling clients to track analytics and KPIs in real-time.
+						</li>
 					</ul>
 				),
 			},
-		],
-	},
-	{
-		title: 'Certification',
-		items: [
+
 			{
 				title: 'Full Stack Developer',
-				place: 'House of Professionals (HOP)',
-				timePeriod: '2021 - 2022',
+				place: 'CodeWave Digital Solutions',
+				timePeriod: '2015.6 - 2017.12',
 				description: (
 					<ul>
 						<li>
-							Earned a Full Stack Development certification from the House of
-							Professional Developers.
+							Developed and maintained client-facing web applications using React.js, Node.js, and TypeScript.
 						</li>
 						<li>
-							Awarded for securing the top position in class, demonstrating
-							strong skills and commitment.
+							Collaborated with UI/UX designers to implement responsive, highperformance front-end features.
+						</li>
+						<li>Led the migration of legacy web apps to modern frameworks, improving load times by 40%.</li>
+						<li>Optimized backend API endpoints and database queries to handle increased traffic efficiently.</li>
+						<li>
+							Mentored junior developers and implemented coding best practices to ensure maintainable codebases.
 						</li>
 					</ul>
 				),
@@ -51,9 +51,9 @@ const timeline = [
 		title: 'Education',
 		items: [
 			{
-				title: 'Bachelor of Science in Computer Science (BSCS)',
-				place: 'Virtual University of Pakistan',
-				timePeriod: '2022 - Present',
+				title: 'La Consolacion College Bacolod',
+				place: 'Bacolod, Philippines',
+				timePeriod: '2013.4 - 2015.2',
 				description: '',
 			},
 		],
@@ -75,17 +75,19 @@ export const AboutMe = () => {
 			<div>
 				<div className='intro'>
 					<p style={{ marginTop: '20px' }}>
-						👋 Hey, I'm Abdullah Iqbal, a Full Stack Developer.
+						👋 Hey, I'm Arnold Ong, Full Stack & Vibe Coding Specialist | Next.js | React.js | Typescript.
 					</p>
 					<p>
-						I've been working with <strong>React</strong> and{' '}
-						<strong>Node</strong> for the past <strong>three years</strong>,
-						building web applications that are fast, scalable and user-friendly.
+						Dedicated Full Stack Developer with 7+ years of experience specializing in <strong>React</strong>, <strong>Next.js</strong>, 
+						<strong>Node.js</strong>, and <strong>TypeScript</strong>, delivering scalable and high-performance web applications. 
 					</p>
 					<p>
-						I like solving problems, learning new things, and experimenting with
-						different technologies. When I'm not coding, I'm probably working on
-						a side project or exploring something new.
+						Skilled at combining modern frontend
+						frameworks with powerful backend technologies to build seamless, maintainable, and efficient full stack solutions
+						tailored to business needs.
+					</p>
+					<p>
+						Proven track record of delivering <strong>100+</strong> successful projects with a client-focused approach.
 					</p>
 				</div>
 				<div>
