@@ -12,10 +12,10 @@ export const InfoSection = () => {
 			/>
 			<p>Hi, I am</p>
 			<TextHover
-				text='Arnold'
+				text='Philip'
 				className='name'
 			/>
-			<p>Full Stack Developer</p>
+			<p>Full Stack & AI Developer</p>
 			<FloatingButton
 				label='Tech'
 				className='sec'

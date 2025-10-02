@@ -6,41 +6,49 @@ const timeline = [
 		items: [
 			{
 				title: 'Full Stack Developer',
-				place: 'Nimbus TechWorks',
-				timePeriod: '2018.3 - 2020.3',
+				place: 'Prairie Systems Inc.',
+				timePeriod: 'Jul 2015 – Dec 2018',
 				description: (
 					<ul>
 						<li>
-							Crafted interactive web applications using Next.js, React.js, and GraphQL
+							Developed internal SaaS applications that streamlined business workflows.
 						</li>
 						<li>
-							Implemented modular and reusable components to improve development speed by 30%.
+							Designed and deployed REST APIs with Node.js, reducing data processing times by 35%.
 						</li>
-						<li>Coordinated with international teams to deliver multilingual web solutions for European clients.</li>
-						<li>Contributed to performance audits, ensuring web apps met accessibility and SEO standards.</li>
 						<li>
-							Developed internal dashboards enabling clients to track analytics and KPIs in real-time.
+							Built an MVP dashboard that attracted 10+ enterprise clients in its first quarter.
+						</li>
+						<li>
+							Integrated third-party APIs (payments, logistics), expanding platform capabilities.
+						</li>
+						<li>
+							Awarded Employee of the Year (2017) for delivering high-impact solutions.
 						</li>
 					</ul>
 				),
 			},
 
 			{
-				title: 'Full Stack Developer',
-				place: 'CodeWave Digital Solutions',
-				timePeriod: '2015.6 - 2017.12',
+				title: 'Senior Full Stack Developer',
+				place: 'Riverbend Technologies',
+				timePeriod: 'Jan 2019 – Aug 2022',
 				description: (
 					<ul>
 						<li>
-							Developed and maintained client-facing web applications using React.js, Node.js, and TypeScript.
+							Led the creation of a multi-tenant SaaS platform serving 5,000+ users.
 						</li>
 						<li>
-							Collaborated with UI/UX designers to implement responsive, highperformance front-end features.
+							Optimized backend workflows with Python & serverless functions, boosting efficiency by 40%.
 						</li>
-						<li>Led the migration of legacy web apps to modern frameworks, improving load times by 40%.</li>
-						<li>Optimized backend API endpoints and database queries to handle increased traffic efficiently.</li>
 						<li>
-							Mentored junior developers and implemented coding best practices to ensure maintainable codebases.
+							Mentored 4 junior developers, ensuring clean coding standards and agile delivery.
+						</li>
+						<li>
+							Designed architecture for an AI-powered reporting tool providing real-time analytics.
+						</li>
+						<li>
+							Consistently delivered ahead of schedule, earning long-term client trust.
 						</li>
 					</ul>
 				),
@@ -51,10 +59,10 @@ const timeline = [
 		title: 'Education',
 		items: [
 			{
-				title: 'La Consolacion College Bacolod',
-				place: 'Bacolod, Philippines',
-				timePeriod: '2013.4 - 2015.2',
-				description: '',
+				title: 'Western Plains University',
+				place: 'Kansas, USA',
+				timePeriod: 'Sep 2011 – Jun 2015',
+				description: 'B.Sc. in Computer Science',
 			},
 		],
 	},
@@ -75,19 +83,8 @@ export const AboutMe = () => {
 			<div>
 				<div className='intro'>
 					<p style={{ marginTop: '20px' }}>
-						👋 Hey, I'm Arnold Ong, Full Stack & Vibe Coding Specialist | Next.js | React.js | Typescript.
-					</p>
-					<p>
-						Dedicated Full Stack Developer with 7+ years of experience specializing in <strong>React</strong>, <strong>Next.js</strong>, 
-						<strong>Node.js</strong>, and <strong>TypeScript</strong>, delivering scalable and high-performance web applications. 
-					</p>
-					<p>
-						Skilled at combining modern frontend
-						frameworks with powerful backend technologies to build seamless, maintainable, and efficient full stack solutions
-						tailored to business needs.
-					</p>
-					<p>
-						Proven track record of delivering <strong>100+</strong> successful projects with a client-focused approach.
+						👋Hi, I’m a Senior Full Stack & AI Developer (32, American) with a strong background in building scalable SaaS platforms, modern MVPs, and AI-driven applications. With expertise spanning frontend, backend, and AI integration, I create digital products that are not only functional but also beautifully designed and performance-driven.
+						I specialize in combining cutting-edge technology with user-focused design to deliver solutions that meet business goals while delighting end-users. Whether it’s a web app, mobile app, or AI-powered SaaS platform, my mission is to bring ideas to life with speed, quality, and scalability.
 					</p>
 				</div>
 				<div>
